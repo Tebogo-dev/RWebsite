@@ -5,6 +5,7 @@
 <head>
   <title>Website developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
   <link rel="stylesheet" href="stylebp1.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -16,7 +17,8 @@
   <script defer src="bp.js"></script>
 </head>
 
-<body class="entirepage">
+<body>
+  <div class="entire_page">
 <div class="top">
     
   <nav>
@@ -55,40 +57,24 @@ expand_more
 </div>
 
 
-  <button onclick="dropdown" class="closeMenu"><i class="fa fa-times"></i></button>
+  <a onclick="dropdown" class="closeMenu"><i class="fa fa-times"></i></a>
     </div>
   </nav>
   
   <div class="CTA">
+    <ul class="cta_list">
     <li class="text">Get in touch with us</li>
     <li class="smallmsg">Get free quotation</li> 
-    
+    </ul>
     <div class="col-xs-6">
     <button class="connect">Lets connect</button>
     </div>
   </div>
 
-    <div class="field_form" >
-      <div class="field" id="connect_link">
-        <h4><br />Please leave your details and enquiry below</h4><br />
-        <span class="close">&times;</span>
-        <form>
-        <ul>
-          <li><label for="fname">Full Name</label><br />
-          <input type="text" name="username" id="firstlast"></li>
-          <li><label for="email">Email</label><br />
-          <input type="text" name="email" id="email"></li>
-          <li><label for="enquiry-description">Enquiry-Description</label><br />
-                                <textarea name="story" maxlength="400" id="profile" rows="4" 
-                         cols="30" placeholder="No more than 400 characters long. What are you looking for?"></textarea></li>
-                         <input type="submit"> 
-        </ul>
-        </form>
-      </div>
-    </div>
+  
 </div>
 
-  </div>
+  
   
   <br />
   <br />
@@ -97,9 +83,10 @@ expand_more
 <div class="box">
   <div class="headcompany">
     <div class="webInfoMsg">
-      <li>&nbsp;</li>
-      <pre>Responsive web<br /><li class="brwsmsg">For different devices</li>Cross-browsing
-<li class="brwsmsg">For different browsers</li>
+      
+      <br />
+      <pre>Responsive web<br /><p class="brwsmsg">For different devices</p>Cross-browsing
+<p class="brwsmsg">For different browsers</p>
     </pre></div>
   </div>
   
@@ -107,32 +94,32 @@ expand_more
 </div>
 <div class="type_of_services">
   <div class="sector">
-    <ul><b>Landing<br />
+    <ul class="cta_list"><li><b>Landing<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Page&nbsp;&nbsp;&nbsp;&nbsp;</b>
-    </ul>
+    </li></ul>
         </div>
   <div class="sector">
-<ul><b>Digital<br />
+<ul class="cta_list"><li><b>Digital<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Marketing&nbsp;&nbsp;&nbsp;</b>
-</ul>
+</li></ul>
   </div>
   <div class="sector">
-    <ul>
+    <ul class="cta_list"><li>
       <b>Static<br />
         &nbsp;&nbsp;&nbsp;&nbsp;Website&nbsp;&nbsp;&nbsp;</b>
-    </ul>
+    </li></ul>
   </div>
   <div class="sector">
-    <ul><b>Dynamic<br />
+    <ul class="cta_list"><li><b>Dynamic<br />
       &nbsp;&nbsp;&nbsp;&nbsp;Website&nbsp;&nbsp;&nbsp;</b>
-    </ul>
+    </li></ul>
   </div>
   
   
 </div>
 <div class="myvid">
   <p class="bye_msg"><br /><br />It starts with a single domain a single search a single post.</p>
-  <video controls autoplay muted loop style="pointer-events:none ;" id="my video"  width="100%" height="auto">
+  <video controls autoplay muted loop id="my-video"  width="100%" height="auto">
     <source src="global network.webmhd.webm" type="video/mp4"> 
   </video>
   <P class="bye_msg">R Consulting</P>
@@ -142,5 +129,25 @@ expand_more
     
   <h5><small>Copyright &copy;2022 Solly Moiketoa.</small></h5>
 </footer>
+</div>
+<div class="field_form" >
+  <div class="field" id="connect_link">
+    <h4><br />Please leave your details and enquiry below</h4><br />
+    <span><button class="close">&times;</button></span>
+    <form>
+    <ul>
+      <li><label for="fname">Full Name</label><br />
+      <input type="text" name="username" id="firstlast"></li>
+      <li><label for="email">Email</label><br />
+      <input type="text" name="email" id="email"></li>
+      <li><label for="enquiry-description">Enquiry-Description</label><br />
+                            <textarea name="story" maxlength="400" id="profile" rows="4" 
+                     cols="30" placeholder="No more than 400 characters long. What are you looking for?"></textarea></li>
+                     <input type="submit"> 
+    </ul>
+    </form>
+  </div>
+</div>
 </body>
+
 </html>

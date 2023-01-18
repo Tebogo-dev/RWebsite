@@ -1,20 +1,25 @@
 console.dir(document);
-var field_show = document.querySelector(".field");
-var sign_up = document.querySelector(".connect_link");
-var lets_connect = document.getElementsByClassName(".connect");
-var close_menu = document.getElementsByClassName(".close");
 
-lets_connect.addEventListener("click",show);
-close_menu.addEventListener("click", close);
+var sign_up = document.querySelector('.field_form');
+var lets_connect = document.querySelector('.connect');
+var close_menu = document.querySelector('.close');
+var background = document.querySelector('.entire_page')
 
-lets_connect = function () {
-    field_show.style.display = "block";
+lets_connect.addEventListener('click', show);
+close_menu.addEventListener('click', close);
+
+function show () {
+    sign_up.style.display = 'block';
+    sign_up.style.left = '1';
+    background.style.opacity = '0.3'
 }
-close_menu = function () {
-    field_show.style.display = "none";
+function close () {
+    sign_up.style.display = 'none';
+    background.style.opacity = '1'
+    
 }
 window.onclick = function(event) {
     if (event.target == sign_up) {
-      sign_up.style.display = "none";
+      sign_up.style.display = 'none';
     }
 }
