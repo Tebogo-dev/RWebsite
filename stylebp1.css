@@ -1,31 +1,29 @@
-
 .top {
-
+	background-image: url("Website Creator3.png");
+	background-repeat: no-repeat;
 	background-size:58.5%;
 	background-position: 100%;
-	padding-bottom: 83px;
+	padding-bottom: 80px;
 	background-color: rgb(255,215,0);
-	background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
-
+	/*background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
+*/
 }
 .main_heading {
 	list-style: none;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
-	margin-top: 140px;
-	margin-right: -360px;
-	margin-left: -220px;
+	margin-bottom: 180px;
+	margin-left: 30px;
 	
 }
 .subhead {
-	margin: 0%;
-	padding: 0%;
-	padding-top: -20%;
+	margin-top: -10%;
+	padding-bottom: 20%;
+	padding-top: 20%;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
-	text-align: justify;
 
 }
 img {
@@ -71,12 +69,15 @@ nav .closeMenu {
 }
 .CTA {
 	list-style: none;
-	margin-left: 100px;
-	margin-top: -200px;
-	padding-top: 10px;
+	margin-left: 8%;
+	margin-top: -17%;
+	padding-top: 2%;
 
 }
 .cta_list {
+	list-style: none;
+}
+.serv_list {
 	list-style: none;
 }
 .field {
@@ -154,36 +155,29 @@ button.connect:hover {
 	flex-wrap: wrap;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-	margin-top: -4px;
+	background-image: url("Multi-device5.png");
+	background-size: 60%;
+	background-position: 5%;
+	background-repeat: no-repeat;
+}
 
-}
-.switch {
-	align-items: left;
-	align-content: flex-start;
-	margin-top: 10px;
-	margin-left: 66px;
-
-}
-.headcompany {
-	margin-top: -85px;
-	
-}
-.webInfoMsg {
-	font-size: 50px;
+.modern_web {
+	font-size: 35px;
 	font-weight: bolder;
-	margin-top: 135px;
-	padding-top: -30px;
-	margin-right: 160px;
-	padding-left: 40px;
+	margin-top: 190px;
+	margin-right: 117px;
+	padding-left: 30px;
 	padding-right: 30px;
+	padding-bottom: 45px;
 	border-radius: 90px;
+	margin-bottom: 130px;
 	list-style: none;
 	color: gray;
 	background-color: white;
 
 }
 .brwsmsg {
-	font-size: 20px;
+	font-size: 15px;
 
 }
 .second_phase {
@@ -244,7 +238,6 @@ footer {
 /*media-query*/
 @media (max-width: 768px) {
 	.top {
-
 		background-size:58.5%;
 		background-position: 100%;
 		padding-bottom: 83px;
@@ -252,6 +245,38 @@ footer {
 		background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
 	
 	}
+	.main_heading {
+		text-align: left;
+	}
+	
+	.type_of_services {
+		display: flex;
+		flex-wrap:wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-top: 5px;
+		padding: 0%;
+		font-size:large;
+		margin-left: 0px;
+		margin-bottom: -35px;
+		
+	}
+	.sector {
+		margin-left: 4%;
+		text-align: center;
+	
+	}
+	.box {
+		display: flex;
+		flex-direction:column-reverse;
+		align-content: center;
+		background-position-y: top;
+		justify-content: center;
+	}
+	.modern_web {
+		margin-left: 180px;
+		margin-top: 200px;
+		text-align: center;
+	
+	}
 }
-/*sass*/
-
