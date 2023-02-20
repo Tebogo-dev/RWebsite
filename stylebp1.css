@@ -182,7 +182,7 @@ button.connect:hover {
 }
 .second_phase {
 	background: rgb(255,215,0);
-	background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);
+	/*background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);*/
 
 }
 .bye_msg {
