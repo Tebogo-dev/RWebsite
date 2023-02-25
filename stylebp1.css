@@ -1,12 +1,16 @@
 .top {
-	background-image: url("Website Creator3.png");
+	background-color: rgb(255,215,0);
+	/*background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);*/
 	background-repeat: no-repeat;
 	background-size:58.5%;
 	background-position: 100%;
-	padding-bottom: 80px;
-	background-color: rgb(255,215,0);
-	/*background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
-*/
+	background-image: url("Website Creator3.png");
+	padding-bottom: 40px;
+
+}
+.topimg {
+	background-image: url("Website Creator3.png");
+
 }
 .main_heading {
 	list-style: none;
@@ -14,7 +18,8 @@
 	font-size: 40px;
 	color: white;
 	margin-bottom: 180px;
-	margin-left: 30px;
+	margin-left: 50px;
+	margin-top: -20px;
 	
 }
 .subhead {
@@ -182,7 +187,7 @@ button.connect:hover {
 }
 .second_phase {
 	background: rgb(255,215,0);
-	/*background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);*/
+	background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);
 
 }
 .bye_msg {
