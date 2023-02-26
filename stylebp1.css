@@ -1,16 +1,15 @@
 .top {
 	background-color: rgb(255,215,0);
-	/*background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);*/
-	background-repeat: no-repeat;
-	background-size:58.5%;
-	background-position: 100%;
-	background-image: url("Website Creator3.png");
-	padding-bottom: 40px;
+	background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
+	padding-bottom: 50px;
 
 }
 .topimg {
 	background-image: url("Website Creator3.png");
-
+	background-repeat: no-repeat;
+	background-position:100%;
+	background-size: 57%;
+	
 }
 .main_heading {
 	list-style: none;
@@ -18,8 +17,9 @@
 	font-size: 40px;
 	color: white;
 	margin-bottom: 180px;
-	margin-left: 22px;
+	margin-left: 25px;
 	margin-top: -20px;
+	padding-left: 10px;
 	
 }
 .subhead {
