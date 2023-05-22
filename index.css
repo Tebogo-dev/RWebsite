@@ -2,13 +2,14 @@
 	background-color: rgb(255,215,0);
 	background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
 	padding-bottom: 50px;
+	margin-left: 25px;
 
 }
 .topimg {
 	background-image: url("Website Creator3.png");
 	background-repeat: no-repeat;
 	background-position:100%;
-	background-size: 57%;
+	background-size: 56.5%;
 	
 }
 .main_heading {
@@ -17,7 +18,7 @@
 	font-size: 40px;
 	color: white;
 	margin-bottom: 180px;
-	margin-left: 25px;
+	margin-left: 13px;
 	margin-top: -20px;
 	padding-left: 10px;
 	
@@ -31,6 +32,9 @@
 	color: white;
 
 }
+button.openMenu.btn.btn-dark:hover {
+	background: red;
+} 
 img {
 	float: right;
 	margin-left: -61px;
@@ -67,11 +71,7 @@ nav .closeMenu {
 	display: none;
 
 }
-.logo {
-	margin-left: 30px;
-	margin-top: 42px;
 
-}
 .CTA {
 	list-style: none;
 	margin-left: 16%;
@@ -114,6 +114,8 @@ nav .closeMenu {
 	font-size: 25px;
 	transition: all 200ms;
 	font-weight: bold;
+	padding-top: -2px;
+	padding-bottom: 5px;
 	
 }
 input[type=text], textarea{
@@ -127,12 +129,12 @@ input[type=text], textarea{
 
 }
 .connect {
-	background-color:darkblue;
+	background-color:black;
   	border: 1px solid black;
  	color:whitesmoke;
 	margin-top: -20px;
-	margin-left: 200px;
-  	padding: 15px 32px;
+	margin-left: 250px;
+  	padding: 16px 75px;
 	font-weight: bold;
   	text-align: center;
   	text-decoration: none;
@@ -142,7 +144,7 @@ input[type=text], textarea{
 
 }
 button.connect:hover {
-	background-color:black;
+	background-color: red;
 }
 .smallmsg {
 	margin-top: 15px;
@@ -164,6 +166,7 @@ button.connect:hover {
 	background-size: 60%;
 	background-position: 5%;
 	background-repeat: no-repeat;
+	
 }
 
 .modern_web {
@@ -178,7 +181,7 @@ button.connect:hover {
 	margin-bottom: 130px;
 	list-style: none;
 	color: gray;
-	background-color: white;
+	background-color: whitesmoke;
 
 }
 .brwsmsg {
@@ -188,7 +191,7 @@ button.connect:hover {
 .second_phase {
 	background: rgb(255,215,0);
 	background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);
-
+	margin-left: 25px;
 }
 .bye_msg {
 	text-align: center;
@@ -222,7 +225,7 @@ h1 {
 	font-weight: bolder;
 	margin-right: 5%;
 	color: gray;
-	background-color:white;
+	background-color:whitesmoke;
 	border-radius: 10px;
 
 }
@@ -235,12 +238,22 @@ footer {
 	padding: 5px;
 
 }
-.dropped_content {
-	background-color: rgb(34, 63, 63);
+.services {
+	background-color: chartreuse;
+	text-align: center;
+	height: auto;
+	top: 200px;
+	left: 450px;
 	display: none;
 	
 }
-/*media-query*/
+.dropped_content {
+	display: block;
+	
+}
+h5 {
+	margin-left: 25px;
+}
 @media (max-width: 768px) {
 	.top {
 		background-size:58.5%;

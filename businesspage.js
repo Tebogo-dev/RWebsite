@@ -7,16 +7,15 @@ material-symbols-outlined.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
 function show(){
-    material - symbols - outlined.style.display; 'flex';
-    mainMenu.style.top='0';
+    material-symbols-outlined.style.display; 'flex';
+    mainMenu.style.top='1';
 }
 function close(){
     mainMenu.style.top='-100%';
 }
 
-console.log(document.domain);
 
-
+ 
 
 
 
