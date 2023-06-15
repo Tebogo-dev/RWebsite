@@ -1,6 +1,6 @@
 .top {
 	background-color: rgb(255,215,0);
-	background: linear-gradient(135deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
+	background: linear-gradient(0deg, rgba(255,215,0,1) 5%, rgba(28,27,3,1) 89%);
 	padding-bottom: 50px;
 	margin-left: 12px;
 
@@ -12,26 +12,21 @@
 	background-size: 56.5%;
 	
 }
+
 .main_heading {
+	display: block;
 	list-style: none;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
-	margin-bottom: 180px;
+	margin-bottom: 305px;
 	margin-left: 13px;
-	margin-top: -20px;
-	padding-left: 10px;
+	margin-top: 90px;
+	padding-left: 28px;
+	padding-bottom: 100px;
 	
 }
-.subhead {
-	margin-top: -10%;
-	padding-bottom: 20%;
-	padding-top: 20%;
-	font-weight: bold;
-	font-size: 40px;
-	color: white;
 
-}
 button.openMenu.btn.btn-dark:hover {
 	background: red;
 } 
@@ -56,14 +51,23 @@ nav .openMenu {
 	margin: 35px;
 	display:inline;
 	cursor: pointer;
+	pointer-events: all;
+	
+}
+nav .toff {
+	font-size: 2rem;
+	margin: 35px;
+	display: inline;
+	cursor: pointer;
 	
 }
 nav .closeMenu {
 	font-size: 2rem;
-	margin: 20px;
+	margin: 35px;
 	display:inline;
 	cursor: pointer;
 	display: none;
+	pointer-events: all;
 
 }
 
@@ -83,6 +87,7 @@ nav .closeMenu {
 	list-style: none;
 }
 .serv_list {
+	display: block;
 	list-style: none;
 }
 .field {
@@ -153,10 +158,7 @@ button.connect:hover {
 	color: black;
 
 }
-#my-video {
-	pointer-events: none;
 
-}
 .box {
 	display: flex;
 	flex-wrap: wrap;
@@ -166,6 +168,7 @@ button.connect:hover {
 	background-size: 60%;
 	background-position: 5%;
 	background-repeat: no-repeat;
+	
 	
 }
 
@@ -189,11 +192,24 @@ button.connect:hover {
 
 }
 .second_phase {
+	display: block;
 	background: rgb(255,215,0);
-	background: linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);
+	background: linear-gradient(180deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%);
 	margin-left: 12px;
+
 }
 .bye_msg {
+	display: block;
+	text-align: center;
+	margin-right: 30px;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: whitesmoke;
+	
+}
+.byee_msg {
+	display: block;
 	text-align: center;
 	margin-right: 30px;
 	font-size: 30px;
@@ -206,7 +222,7 @@ h1 {
 	text-align: center;
 	font-weight:lighter;
 	font-size: 40px;
-
+	
 }
 .type_of_services {
 	display: flex;
@@ -220,7 +236,23 @@ h1 {
 	margin-bottom: -35px;
 	
 }
+#services {
+	font-size: 30px;
+
+}
+#serving {
+	font-size: 20px;
+}
+.my_vid {
+	display: block;
+
+}
+#my-video {
+	display: block;
+	pointer-events: none;
+}
 .sector {
+	display: block;
 	font-size: 25px;
 	font-weight: bolder;
 	margin-right: 5%;
@@ -238,18 +270,19 @@ footer {
 	padding: 5px;
 
 }
-.services {
-	background-color: chartreuse;
+.mainMenu {
+	background-color: cadetblue;
+	list-style: none;
 	text-align: center;
-	height: auto;
-	top: 200px;
-	left: 450px;
-	display: none;
-	
+	height: 100vh;  
+	width: 100%;
+	margin-top: -790px;
+	padding-top: 350px;
+
 }
-.dropped_content {
-	display: block;
-	
+.services {
+	display: none;
+	transition: top 1sec ease;
 }
 h5 {
 	margin-left: 25px;
