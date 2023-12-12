@@ -1,5 +1,6 @@
 console.dir(document);
 
+/* Lets connect button click event*/
 var sign_up = document.querySelector('.field_form');
 var lets_connect = document.querySelector('.connect');
 var close_menu = document.querySelector('.close');
@@ -17,16 +18,18 @@ function show() {
 function close () {
     sign_up.style.display = 'none';
     background.style.opacity = '1';
-    
 }
-/*
+
+
 window.onclick = function(event) {
     if (event.current == 'show') {
         sign_up.style.display = 'none';
         background.style.opacity = '1';
     }
 }
-*/
+
+
+/*Top corner click event*/
 var service = document.querySelector('.services');
 var toggle_off = document.querySelector('.openMenu');
 var toggle_on = document.querySelector('.closeMenu');
@@ -45,8 +48,8 @@ var subtext = document.querySelector('.smallmsg');
 
 toggle_off.addEventListener('click', show_services);
 toggle_on.addEventListener('click', close_service);
+text_box.addEventListener('click', close_button);
 
-  
 function show_services() {
     main.style.color = 'rgb(95,158,160)';
     subtext.style.color = 'rgb(95,158,160)';
@@ -60,7 +63,6 @@ function show_services() {
     s_p5.style.display = 'none';
     s_p6.style.display = 'none';
     s_p7.style.display = 'none';
-    
 }
 
 function close_service() {
@@ -69,10 +71,14 @@ function close_service() {
     toggle_on.style.display = 'none';
 
     s_p1.style.background = 'rgb(255,215,0)';
-    s_p1.style.background = 'linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%)';
+    s_p1.style.background = 'linear-gradient(0deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 89%)';
     s_p2.style.background = 'rgb(255,215,0)';
-    s_p2.style.background = 'linear-gradient(291deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 99%)';
+    s_p2.style.background = 'linear-gradient(0deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 89%)';
     s_p3.style.display = 'flex';
     main.style.color = 'rgb(255,255,255)';
     subtext.style.color = 'rgb(0,0,0)';
 } 
+/*end of switch button*/
+
+
+
