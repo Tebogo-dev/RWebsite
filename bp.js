@@ -39,7 +39,7 @@ var s_p2 = document.querySelector('.top');
 
 var s_p3 = document.querySelector('.box');
 var s_p4 = document.querySelector('.type_of_services');
-var s_p5 = document.getElementById('my-video');
+var s_p5 = document.getElementById('.my-video');
 var s_p6 = document.querySelector('.bye_msg');
 var s_p7 = document.querySelector('.byee_msg');
 
