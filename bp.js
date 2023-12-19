@@ -43,10 +43,12 @@ var s_p5 = document.getElementById('.my-video');
 var s_p6 = document.querySelector('.bye_msg');
 var s_p7 = document.querySelector('.byee_msg');
 var s_p8 = document.querySelector('.my_vid');
+var s_p9 = document.querySelector('CTA');
 
 var main = document.querySelector('.main_heading');
 var subtext = document.querySelector('.smallmsg');
 
+/*event listeners for top corner*/
 toggle_off.addEventListener('click', show_services);
 toggle_on.addEventListener('click', close_service);
 text_box.addEventListener('click', close_button);
@@ -64,6 +66,7 @@ function show_services() {
     s_p5.style.display = 'none';
     s_p6.style.display = 'none';
     s_p7.style.display = 'none';
+    s_p9.style.display = 'none';
 }
 
 function close_service() {
@@ -76,8 +79,11 @@ function close_service() {
     s_p2.style.background = 'rgb(255,215,0)';
     s_p2.style.background = 'linear-gradient(0deg, rgba(255,215,0,1) 20%, rgba(28,27,3,1) 89%)';
     s_p3.style.display = 'flex';
+    s_p1.style.display = 'block';
     main.style.color = 'rgb(255,255,255)';
     subtext.style.color = 'rgb(0,0,0)';
+
+
 } 
 /*end of switch button*/
 
