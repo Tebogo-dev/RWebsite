@@ -42,6 +42,7 @@ var s_p4 = document.querySelector('.type_of_services');
 var s_p5 = document.getElementById('.my-video');
 var s_p6 = document.querySelector('.bye_msg');
 var s_p7 = document.querySelector('.byee_msg');
+var s_p8 = document.querySelector('.my_vid');
 
 var main = document.querySelector('.main_heading');
 var subtext = document.querySelector('.smallmsg');
