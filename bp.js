@@ -13,7 +13,11 @@ close_menu.addEventListener('click', close);
 function show() {
     sign_up.style.display = 'block';  
     sign_up.style.left = '1';
+<<<<<<< HEAD
     background.style.opacity = '0.9';
+=======
+    back.style.opacity = '0.3';
+>>>>>>> 535016e6d29828488e2100343c49d63619e562bb
     toggle_off = 'disable';
 }
 function close () {
