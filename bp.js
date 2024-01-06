@@ -1,6 +1,5 @@
 console.dir(document);
 
-console.dir(document);
 /* Lets connect button click event*/
 var sign_up = document.querySelector('.field_form');
 var lets_connect = document.querySelector('.connect');
