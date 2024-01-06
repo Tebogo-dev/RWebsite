@@ -1,10 +1,11 @@
 console.dir(document);
 
+console.dir(document);
 /* Lets connect button click event*/
 var sign_up = document.querySelector('.field_form');
 var lets_connect = document.querySelector('.connect');
 var close_menu = document.querySelector('.close');
-var background = document.querySelector('.entire_page');
+var back = document.querySelector('.entire_page');
 
 lets_connect.addEventListener('click', show);
 close_menu.addEventListener('click', close);
@@ -12,19 +13,18 @@ close_menu.addEventListener('click', close);
 function show() {
     sign_up.style.display = 'block';  
     sign_up.style.left = '1';
-    background.style.opacity = '0.3';
+    background.style.opacity = '0.9';
     toggle_off = 'disable';
 }
 function close () {
     sign_up.style.display = 'none';
-    background.style.opacity = '1';
+    back.style.opacity = '1';
 }
-
 
 window.onclick = function(event) {
     if (event.current == 'show') {
         sign_up.style.display = 'none';
-        background.style.opacity = '1';
+        back.style.opacity = '1';
     }
 }
 
@@ -51,7 +51,7 @@ var subtext = document.querySelector('.smallmsg');
 /*event listeners for top corner*/
 toggle_off.addEventListener('click', show_services);
 toggle_on.addEventListener('click', close_service);
-text_box.addEventListener('click', close_button);
+
 
 function show_services() {
     main.style.color = 'rgb(95,158,160)';

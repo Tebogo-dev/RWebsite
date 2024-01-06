@@ -6,6 +6,7 @@
   <title>Website developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+
   <link rel="stylesheet" href="index.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -15,6 +16,7 @@
   <link rel="stylesheet" href="index. css">
   <!--linking javascript-->
   <script defer src="bp.js"></script>
+  <script defer src="businesspage.js"></script>
 </head>
 
 <body>
@@ -60,7 +62,26 @@
     <li class="smallmsg">Get free quotation</li> 
     </ul>
     <div class="col-xs-6">
-    <button class="connect">Let's connect</button>
+      <div class="field_form" >
+        <div class="field" id="connect_link">
+          <h4><br /></h4><br />
+          <span><button class="close">&times;</button></span>
+          <form>
+          <ul class="inquiry">
+            <h3>Please leave your details and inquiry below</h3>
+            <li><label for="fname">Full Name</label><br />
+            <input type="text" name="username" id="firstlast"></li>
+            <li><label for="email">Email</label><br />
+            <input type="text" name="email" id="email"></li>
+            <li><label for="enquiry-description">Enquiry-Description</label><br />
+                                  <textarea name="story" maxlength="400" id="profile" rows="4" 
+                           cols="30" placeholder="No more than 400 characters long. What are you looking for?"></textarea></li>
+                           <input type="submit">
+          </ul>
+          </form>
+        </div>
+      </div>
+    <button class="connect"><a href="form.html"></a>Let's connect</button>
     </div>
   </div>
 
@@ -120,29 +141,11 @@
 </div>
  
 </div>
-<div class="field_form" >
-  <div class="field" id="connect_link">
-    <h4><br /></h4><br />
-    <span><button class="close">&times;</button></span>
-    <form>
-    <ul class="inquiry">
-      <h3>Please leave your details and inquiry below</h3>
-      <li><label for="fname">Full Name</label><br />
-      <input type="text" name="username" id="firstlast"></li>
-      <li><label for="email">Email</label><br />
-      <input type="text" name="email" id="email"></li>
-      <li><label for="enquiry-description">Enquiry-Description</label><br />
-                            <textarea name="story" maxlength="400" id="profile" rows="4" 
-                     cols="30" placeholder="No more than 400 characters long. What are you looking for?"></textarea></li>
-                     <input type="submit">
-    </ul>
-    </form>
-  </div>
-</div>
+
   </div>
   <footer>  
     
-    <h5><small>Copyright &copy;2022 Solly Moiketoa.</small></h5>
+    <h5><small>Copyright &copy;2023 Solly Moiketoa.</small></h5>
   </footer>
 </body>
 
