@@ -12,7 +12,7 @@ close_menu.addEventListener('click', close);
 function show() {
     sign_up.style.display = 'block';  
     sign_up.style.left = '1';
-    back.style.opacity = '0.3';
+    back.style.opacity = '0.9';
     toggle_off = 'disable';
 }
 function close () {
